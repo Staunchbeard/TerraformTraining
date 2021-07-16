@@ -22,3 +22,19 @@ variable "subnetName" {
 variable "envTags" {
     type = map(any)
 }
+
+variable "nsgName" {
+  type = string
+}
+
+variable "pipName" {
+  type = string
+}
+
+variable "nicName" {
+  type = string
+}
+
+variable "vmName" {
+  type = string
+}

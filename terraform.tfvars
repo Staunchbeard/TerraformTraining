@@ -1,12 +1,16 @@
-resourcegroupName = "BabiesFirstResourceGroup"
+resourcegroupName = "ew-BabiesFirstResourceGroup"
 resourcegroupTags = {
   "environment" = "Test"
 }
 
-virtualnetworkName = "BabiesFirstvNet"
+virtualnetworkName = "ew-BabiesFirstvNet"
 
-subnetName = "BabiesFirstSubnet"
+subnetName = "ew-BabiesFirstSubnet"
+nsgName = "ew-BabiesFirstNSG"
+pipName = "ew-BabiesFirstPIP"
+nicName = "ew-BabiesFirstNIC"
+vmName = "ew-BabiesFirstVM"
 
 envTags = {
-    "evironment" = "Test"
+    "evironment" = "ew-Test"
 }
